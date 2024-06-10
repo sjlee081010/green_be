@@ -3,13 +3,20 @@
     padding: 0;
 }
 main {
-    width: 2200px;
+    width: 2000px;
     height: 1000px;
     background-color: skyblue;
     margin: auto;
 }
+.lake {
+    width: 2000px;
+    height: 170px;
+    position: fixed;
+    background-color: navy;
+    margin-top: 530px;
+}
 .floor {
-    width: 2200px;
+    width: 2000px;
     height: 300px;
     position: fixed;
     background-color: rgb(59, 59, 59);
