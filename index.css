@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 2200px;
+    height: 1000px;
+    background-color: skyblue;
+    margin: auto;
+}
+.floor {
+    width: 2200px;
+    height: 300px;
+    position: fixed;
+    background-color: rgb(59, 59, 59);
+    margin-top: 700px;
+}
