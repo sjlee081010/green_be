@@ -1055,3 +1055,460 @@ main {
     transform: rotate(20deg);
     margin-left: 95.8vw;
 }
+.move1 {
+    position: fixed;
+    width: 15vw;
+    height: 60vh;
+    animation: move1 5s linear forwards;
+}
+@keyframes move1 {
+    0% { transform: translate(2vw, 35vh); }
+    100% { transform: translate(35vw, 35vh); }
+}
+.leg1 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg1 5s linear forwards; 
+    margin-left: 5vw; 
+    margin-top: 20vh;
+}
+.leg1 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg1 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg1 {
+    0% { transform: rotate(10deg);}
+    20% { transform: rotate(-35deg);}
+    40% { transform: rotate(10deg);}
+    60% {transform: rotate(-35deg)}
+    80% { transform: rotate(10deg);;}
+    100% {  transform: rotate(-0deg);}
+}
+.leg2 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg2 5s linear forwards; 
+    margin-left: 6vw; 
+    margin-top: 20vh;
+}
+.leg2 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg2 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+    margin-left: 1vh;
+}
+@keyframes leg2 {
+    0% { transform: rotate(-35deg);}
+    20% { transform: rotate(15deg);}
+    40% { transform: rotate(-35deg);}
+    60% {transform: rotate(15deg);}
+    80% { transform: rotate(-35deg);}
+    100% {  transform: rotate(0deg);}
+}
+.leg3 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg3 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+.leg3 > div {
+    width: 4vw;
+    height: 14vh;
+}
+.leg3 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg3 {
+    0% { transform: rotate(30deg); margin-left: 5vw; margin-top: 25vh;}
+    20% { transform: rotate(-30deg); margin-left: 8.5vw; margin-top: 24vh;}
+    40% { transform: rotate(30deg); margin-left: 5vw; margin-top: 25vh;}
+    60% {transform: rotate(-30deg); margin-left: 8.5vw; margin-top: 24vh;}
+    80% { transform: rotate(30deg); margin-left: 5vw; margin-top: 25vh;}
+    100% {  transform: rotate(-0deg); margin-left: 5.5vw; margin-top: 24vh;}
+}
+.leg4 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg4 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 7vw;
+}
+.leg4 > div {
+    width: 3vw;
+    height: 14vh;
+}
+.leg4 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+}
+@keyframes leg4 {
+    0% { transform: rotate(-30deg); margin-left: 10vw; margin-top: 24vh;}
+    20% { transform: rotate(30deg); margin-left: 6vw; margin-top: 25vh;}
+    40% { transform: rotate(-30deg); margin-left: 10vw; margin-top: 24vh;}
+    60% {transform: rotate(30deg); margin-left: 6vw; margin-top: 25vh;}
+    80% { transform: rotate(-30deg); margin-left: 10vw; margin-top: 24vh;}
+    100% {  transform: rotate(-0deg); margin-left: 7vw; margin-top: 25vh;}
+}
+.body1 {
+    position: fixed;
+    width: 7vw;
+    height: 20vh;
+    background-color: rgb(150, 43, 43);
+    margin-left: 4.3vw;
+    border-radius: 20%;
+    margin-top: 13svh;
+}
+.head1 {
+    position: fixed;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(219, 198, 153);
+    margin-left: 5.25vw;
+    margin-top: 3.5vh;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.head1 > div {
+    width: 5vw;
+    height: 4vh;
+    background-color: rgb(46, 41, 37);
+}
+.arm1 {
+    position: fixed;
+    width: 1.5vw;
+    height: 15vh;
+    animation: arm1 8s linear forwards; 
+    margin-top: 9vh;
+    margin-left: 6.7vw;
+}
+@keyframes arm1 {
+    0% { transform: rotate(10deg); }
+    12.5% { transform: rotate(-20deg); }
+    25% { transform: rotate(10deg); }
+    37.5% { transform: rotate(-20deg); }
+    50% { transform: rotate(10deg); }
+    62.5% { transform: rotate(-20deg); }
+    72.5% { transform: rotate(-0deg); }
+    77.5% { transform: rotate(-20deg); }
+    82.5% { transform: rotate(-0deg); }
+    90.5% { transform: rotate(-120deg); }
+    96.5% { transform: rotate(-120deg); }
+    100% { transform: rotate(-100deg); }
+}
+.arm1 > div {
+    width: 3vw;
+    height: 7vh;
+}
+.arm1 > section {
+    width: 3vw;
+    height: 8vh;
+    background-color: rgb(119, 35, 35);
+    border-radius: 20%;
+}
+.arm2 {
+    position: fixed;
+    width: 1.5vw;
+    height: 20vh;
+    animation: arm2 8s linear forwards; 
+    margin-top: 11vh;
+    margin-left: 6.7vw;
+}
+.arm2 > div {
+    width: 3vw;
+    height: 9vh;
+}
+.arm2 > section {
+    width: 3vw;
+    height: 11vh;
+    background-color: rgb(119, 35, 35);
+    border-radius: 20%;
+}
+@keyframes arm2 {
+    0% { transform: rotate(0deg); margin-left: 6vw; margin-top: 14vh}
+    12.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 13vh}
+    25% { transform: rotate(0deg); margin-left: 6vw; margin-top: 14vh}
+    37.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 13vh}
+    50% { transform: rotate(0deg); margin-left: 6vw; margin-top: 14vh}
+    62.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 13vh}
+    72.5% { transform: rotate(-0deg); margin-left: 7vw; margin-top: 13.5vh}
+    77.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 12vh}
+    82.5% { transform: rotate(-0deg); margin-left: 7vw; margin-top: 12vh}
+    90.5% { transform: rotate(-120deg); margin-left: 10vw; margin-top: 6vh}
+    92.5% { transform: rotate(-180deg); margin-left: 9vw; margin-top: 3vh}
+    100% { transform: rotate(-140deg); margin-left: 10.5vw; margin-top: 5.5vh}
+}
+.trash1 {
+    position: fixed;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: gray;
+    animation: trash1 8s linear forwards; 
+}
+@keyframes trash1 {
+    0% { margin-left: 6vw; margin-top: 28vh;}
+    12.5% { margin-left: 9.5vw; margin-top: 26vh;}
+    25% { margin-left: 6vw; margin-top: 28vh;}
+    37.5%{ margin-left: 9.5vw; margin-top: 26vh;}
+    50% { margin-left: 6vw; margin-top: 28vh;}
+    62.5% { margin-left: 9.5vw; margin-top: 28vh;}
+    72.5%  { margin-left: 7vw; margin-top: 28vh;}
+    74.5%  { margin-left: 9.5vw; margin-top: 26vh;}
+    77.5% { margin-left: 11.5vw; margin-top: 25vh;}
+    78.5% { margin-left: 12,4vw; margin-top: 28vh;}
+    100% { margin-left:14vw; margin-top: 50vh;}
+}
+.move2 {
+    position: fixed;
+    width: 15vw;
+    height: 60vh;
+    animation: move2 5s linear forwards;
+}
+@keyframes move2 {
+    0% { transform: translate(83vw, 35vh); }
+      100% { transform: translate(50vw, 35vh); }
+}
+.leg5 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg5 5s linear forwards; 
+    margin-left: 5vw; 
+    margin-top: 20vh;
+}
+.leg5 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg5 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg5 {
+    0% { transform: rotate(-10deg);}
+    20% { transform: rotate(35deg);}
+    40% { transform: rotate(-10deg);}
+    60% {transform: rotate(35deg)}
+    80% { transform: rotate(-10deg);;}
+    100% {  transform: rotate(-0deg);}
+}
+.leg6 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg6 5s linear forwards; 
+    margin-left: 6vw; 
+    margin-top: 20vh;
+}
+.leg6 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg6 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+    margin-left: 1vh;
+}
+@keyframes leg6 {
+    0% { transform: rotate(35deg);}
+    20% { transform: rotate(-15deg);}
+    40% { transform: rotate(35deg);}
+    60% {transform: rotate(-15deg);}
+    80% { transform: rotate(35deg);}
+    100% {  transform: rotate(0deg);}
+}
+.leg7 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg7 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+.leg7 > div {
+    width: 4vw;
+    height: 14vh;
+}
+.leg7 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg7 {
+    0% { transform: rotate(-30deg); margin-left: 5.5vw; margin-top: 25vh;}
+    20% { transform: rotate(30deg); margin-left: 2.6vw; margin-top: 24vh;}
+    40% { transform: rotate(-30deg); margin-left: 5.5vw; margin-top: 25vh;}
+    60% {transform: rotate(30deg); margin-left: 2.6vw; margin-top: 24vh;}
+    80% { transform: rotate(-30deg); margin-left: 5.5vw; margin-top: 25vh;}
+    100% {  transform: rotate(-0deg); margin-left: 5.5vw; margin-top: 24vh;}
+}
+.leg8 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg8 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 7vw;
+}
+.leg8 > div {
+    width: 3vw;
+    height: 14vh;
+}
+.leg8 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+}
+@keyframes leg8 {
+    0% { transform: rotate(30deg); margin-left: 4vw; margin-top: 24vh;}
+    20% { transform: rotate(-30deg); margin-left: 7.5vw; margin-top: 25vh;}
+    40% { transform: rotate(30deg); margin-left: 4vw; margin-top: 24vh;}
+    60% {transform: rotate(-30deg); margin-left: 7.5vw; margin-top: 25vh;}
+    80% { transform: rotate(30deg); margin-left: 4vw; margin-top: 24vh;}
+    100% {  transform: rotate(-0deg); margin-left: 7vw; margin-top: 25vh;}
+}
+.body2 {
+    position: fixed;
+    width: 7vw;
+    height: 20vh;
+    background-color: rgb(9, 9, 110);
+    margin-left: 4.3vw;
+    border-radius: 20%;
+    margin-top: 13svh;
+}
+.head2 {
+    position: fixed;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(219, 198, 153);
+    margin-left: 5.25vw;
+    margin-top: 3.5vh;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.head2 > div {
+    width: 5vw;
+    height: 4vh;
+    background-color: rgb(46, 41, 37);
+}
+.arm3 {
+    position: fixed;
+    width: 1.5vw;
+    height: 15vh;
+    animation: arm3 8s linear forwards; 
+    margin-top: 9vh;
+    margin-left: 6.7vw;
+}
+@keyframes arm3 {
+    0% { transform: rotate(-10deg); }
+    12.5% { transform: rotate(20deg); }
+    25% { transform: rotate(-10deg); }
+    37.5% { transform: rotate(20deg); }
+    50% { transform: rotate(-10deg); }
+    62.5% { transform: rotate(20deg); }
+    72.5% { transform: rotate(0deg); }
+    77.5% { transform: rotate(20deg); }
+    82.5% { transform: rotate(0deg); }
+    90.5% { transform: rotate(120deg); }
+    96.5% { transform: rotate(120deg); }
+    100% { transform: rotate(100deg); }
+}
+.arm3 > div {
+    width: 3vw;
+    height: 7vh;
+}
+.arm3 > section {
+    width: 3vw;
+    height: 8vh;
+    background-color: rgb(18, 30, 67);
+    border-radius: 20%;
+}
+.arm4 {
+    position: fixed;
+    width: 1.5vw;
+    height: 20vh;
+    animation: arm4 8s linear forwards; 
+    margin-top: 11vh;
+    margin-left: 6.7vw;
+}
+.arm4 > div {
+    width: 3vw;
+    height: 9vh;
+}
+.arm4 > section {
+    width: 3vw;
+    height: 11vh;
+    background-color:rgb(18, 30, 67);
+    border-radius: 20%;
+}
+@keyframes arm4 {
+    0% { transform: rotate(-0deg); margin-left: 7.5vw; margin-top: 14vh}
+    12.5% { transform: rotate(30deg); margin-left: 5.5vw; margin-top: 13vh}
+    25% { transform: rotate(-0deg); margin-left: 7.5vw; margin-top: 14vh}
+    37.5% { transform: rotate(30deg); margin-left: 5.5vw; margin-top: 13vh}
+    50% { transform: rotate(-0deg); margin-left: 7.5vw; margin-top: 14vh}
+    62.5% { transform: rotate(30deg); margin-left: 5.5vw; margin-top: 13vh}
+    72.5% { transform: rotate(0deg); margin-left: 6.5vw; margin-top: 13.5vh}
+    77.5% { transform: rotate(30deg); margin-left: 5vw; margin-top: 12vh}
+    82.5% { transform: rotate(0deg); margin-left: 6vw; margin-top: 12vh}
+    90.5% { transform: rotate(120deg); margin-left: 4vw; margin-top: 6vh}
+    92.5% { transform: rotate(180deg); margin-left: 5vw; margin-top: 3vh}
+    100% { transform: rotate(140deg); margin-left: 4vw; margin-top: 5.5vh}
+}
+.trash2 {
+    position: fixed;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: gray;
+    animation: trash2 8s linear forwards; 
+}
+@keyframes trash2 {
+    0% { margin-left: 6.5vw; margin-top: 28vh;}
+    12.5% { margin-left: 4vw; margin-top: 26vh;}
+    25% { margin-left: 6.5vw; margin-top: 28vh;}
+    37.5%{ margin-left: 4vw; margin-top: 26vh;}
+    50% { margin-left: 6.5vw; margin-top: 28vh;}
+    62.5% { margin-left: 4vw; margin-top: 28vh;}
+    72.5%  { margin-left: 7vw; margin-top: 28vh;}
+    74.5%  { margin-left: 4vw; margin-top: 26vh;}
+    77.5% { margin-left: 3vw; margin-top: 25vh;}
+    78.5% { margin-left: 2vw; margin-top: 28vh;}
+    100% { margin-left: -2vw; margin-top: 50vh;}
+}
+.trash3 {
+    width: 7vw;
+    height: 20vh;
+    background-color: rgb(172, 170, 170);
+    position: fixed;
+    margin-left: 47vw;
+    margin-top: 78vh;
+    border-radius: 0% 0% 30% 30%;
+}
