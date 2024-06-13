@@ -3,22 +3,403 @@
     padding: 0;
 }
 main {
-    width: 2000px;
-    height: 1000px;
-    background-color: skyblue;
-    margin: auto;
+    display: flex;
+}
+.sky {
+    position: fixed;
+    width: 100vw;
+    height: 65vh;
+    background: linear-gradient(10deg, #e6ca64, #dbcc96,rgb(163, 197, 211), rgb(88, 179, 215));
 }
 .lake {
-    width: 2000px;
-    height: 170px;
     position: fixed;
-    background-color: navy;
-    margin-top: 530px;
+    width: 100vw;
+    height: 15vh;
+    margin-top: 65vh;
+    background: linear-gradient(355deg, #222279, #224579, #8a9ce0);
 }
 .floor {
-    width: 2000px;
-    height: 300px;
-    position: fixed;
-    background-color: rgb(59, 59, 59);
-    margin-top: 700px;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 80vh;
+    background-color: #3d3a3a;
 }
+.end {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: rgba(176, 176, 176, 0.582);
+}
+.indo {
+    width: 100vw;
+    height: 13vh;
+    background-color: rgb(205, 137, 94);
+}
+.line {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: rgba(105, 181, 211, 0.797);
+}
+.section1 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.handrail {
+    width: 100vw;
+    height: 13vh;
+    margin-top: 68vh;
+    position: fixed;
+}
+.rail {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: #252525;
+}
+.bars {
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+}
+.bars > div {
+    width: 1vw;
+    height: 11vh;
+    background-color: #252525;
+}
+.rounds {
+    width: 100vw;
+    height: 0.5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.rounds > div {
+    width: 1vw;
+    height: 0.5vh;
+    background-color: #252525;
+    border-radius: 0% 0% 100px 100px;
+}
+.section2 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.buildings1 {
+    width: 100vw;
+    height: 25vh;
+    position: fixed;
+    margin-top: 35vh;
+    display: flex;
+}
+.struc1 {
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+}
+.struc1 > section {
+    padding-left: 1vw;
+    width: 2.5vw;
+    height: 20vh;
+    margin-top: 5vh;
+    background-color: white;
+    box-shadow: 7px 0px 5px -1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.struc1 > section:last-child() {
+    box-shadow: 0px 0px 0px 0px gray;
+}
+.struc1 > div {
+    width: 2vw;
+    height: 18vh;
+    margin-top: 7vh;
+    background-color: white;
+}
+.window1 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(63, 63, 141);
+    border-radius: 20%;
+}
+.struc2 {
+    width: 17vw;
+    height: 25vh;
+}
+.struc2 > div {
+    width: 17vw;
+    height: 2vh;
+    margin-top: 8vh;
+    background-color: rgb(47, 36, 9);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc2 > section {
+    width: 17vw;
+    height: 12.5vh;
+    padding-top: 2.5vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.window2 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #6696b7;
+    border-radius: 15%;
+}
+.struc3 {
+    width: 12vw;
+    height: 25vh;
+}
+.struc3 > div {
+    width: 12vw;
+    height: 3vh;
+    margin-top: 11vh;
+    background-color: rgb(93, 37, 31);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc3 > section {
+    width: 12vw;
+    height: 1vh;
+    background-color: rgb(255, 255, 255);
+}
+.struc3 > article {
+    width: 12vw;
+    height: 9vh;
+    padding-top: 1vh;
+    background-color: rgb(93, 37, 31);
+    display: flex;
+    justify-content: space-around;
+}
+.struc4 {
+    width: 16vw;
+    height: 25vh;
+}
+.struc4 > div {
+    width: 16vw;
+    height: 3vh;
+    margin-top: 9vh;
+    background-color: rgb(35, 17, 6);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc4 > section {
+    width: 16vw;
+    height: 1vh;
+    background-color: rgb(237, 237, 237);
+}
+.struc4 > article {
+    width: 16vw;
+    height: 12vh;
+    background-color: rgb(181, 95, 41);
+    display: flex;
+    justify-content: end;
+}
+.struc4 > article > div {
+    width: 8vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.window3 {
+    width: 8vw;
+    height: 1.5vh;
+    border-radius: 1000px 0px 0px 1000px;
+    background-color: #6680b7;
+}
+.struc5 {
+    width: 5vw;
+    height: 25vh;
+}
+.struc5 > div:nth-child(1) {
+    width: 1vw;
+    height: 5vh;
+    background-color: red;
+    background: linear-gradient(-100deg, transparent 60%, rgb(222, 36, 36) 0) right, linear-gradient(100deg, transparent 60%, rgb(202, 48, 48) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+    margin-left: 2vw;
+}
+.struc5 > div:nth-child(2) {
+    width: 3vw;
+    height: 4vh;
+    background-color: rgb(222, 220, 220);
+    background: linear-gradient(-100deg, transparent 60%, rgb(255, 255, 255) 0) right, linear-gradient(100deg, transparent 60%, rgb(255, 255, 255) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+    margin-left: 1vw;
+}
+.struc5 > div:nth-child(3) {
+    width: 5vw;
+    height: 5vh;
+    background-color: rgb(222, 220, 220);
+    background: linear-gradient(-100deg, transparent 60%, rgb(235, 7, 7) 0) right, linear-gradient(100deg, transparent 60%, rgb(211, 1, 1) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+    margin-left: 0vw;
+}
+.struc5 > div:nth-child(4) {
+    width: 5vw;
+    height: 9vh;
+    background-color: rgb(222, 220, 220);
+    background: linear-gradient(-100deg, transparent 40%, rgb(242, 240, 240) 0) right, linear-gradient(100deg, transparent 40%, rgb(235, 229, 229) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+}
+.struc6 {
+    width: 17vw;
+    height: 25vh;
+}
+.struc6 > div {  
+    width: 17vw;
+    height: 2vh;
+    margin-top: 8vh;
+    background-color: rgb(47, 36, 9);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc6 > section {
+    width: 17vw;
+    height: 6.25vh;
+    padding-top: 2.5vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.window4 {
+    width: 3vw;
+    height: 4vh;
+    background-color: #6696b7;
+    border-radius: 20%;
+}
+.struc7 {
+    width: 14vw;
+    height: 25vh;
+}
+.struc7 > div {
+    width: 14vw;
+    height: 3vh;
+    margin-top: 9vh;
+    background-color: rgb(35, 17, 6);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc7 > section {
+    width: 14vw;
+    height: 1vh;
+    background-color: rgb(237, 237, 237);
+}
+.struc7 > article {
+    width: 14vw;
+    height: 12vh;
+    background-color: rgb(181, 95, 41);
+    display: flex;
+    justify-content: start;
+}
+.struc7 > article > div {
+    width: 8vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.window5 {
+    width: 8vw;
+    height: 1.5vh;
+    border-radius: 0px 1000px 1000px 0px;
+    background-color: #6680b7;
+}
+.section3 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.bridge1 {
+    width: 50vw;
+    height: 8vh;
+    background-color: rgb(219, 219, 140);
+    margin-top: 54vh;
+    transform: rotate(-2.5deg);
+    position: fixed;
+}
+.road1 {
+    width: 50vw;
+    height: 2vh;
+    background-color: rgb(161, 161, 161);
+    box-shadow: 0 10px 6px -6px #777;
+}
+.bars2 {
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bars2 > div {
+    width: 2vw;
+    height: 5vh;
+    background-color: beige;
+    box-shadow: 7px 0px 5px -1px gray;
+}
+.bars2 > div:last-child {
+    box-shadow: 0px 0px 0px 0px white;
+}
+.section4 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.buildings2 {
+    margin-left: 49.5vw;
+    width: 50.5vw;
+    height: 10vh;
+    position: fixed;
+    margin-top: 51vh;
+    background-color: rgba(255, 0, 0, 0.306);
+}
+.buildings2 > div {
+    display: inline-block;
+}
+.buildings2 > div:nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    background-color: white;
+}
+.buildings2 > div:nth-child(2) {
+    width: 10vw;
+    height: 10vh;
+    background-color: rgb(93, 37, 31);
+    margin-left: 4.5vw;
+}
+.buildings2 > div:nth-child(3) {
+    width: 10vw;
+    height: 10vh;
+    background-color: white;
+    margin-left: 4.5vw;
+}
+.section5 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.bridge {
+    width: 100vw;
+    height: 7vh;
+    margin-top: 58vh;
+    background-color: silver;
+}
+.road {
+    width: 100vw;
+    height: 2vh;
+    background-color: rgb(80, 80, 80);
+    box-shadow: 0 10px 6px -6px #777;
+}
+.bars1 {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.bars1 > div {
+    width: 2vw;
+    height: 5vh;
+    background-color: rgb(250, 250, 201);
+    box-shadow: 7px 0px 5px -1px gray;
+}   
