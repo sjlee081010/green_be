@@ -371,7 +371,7 @@ main {
     width: 11vw;
     height: 6vh;
     padding-top: 2vh;
-    background-color: rgb(239, 236, 193);
+    background-color: rgb(243, 238, 189);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -385,7 +385,7 @@ main {
 .buildings2 > div:nth-child(2) > div {
     width: 7.5vw;
     height: 4vh;
-    background-color: rgba(220, 208, 179, 0.918);
+    background-color: rgb(220, 208, 179);
     margin-top: 1vh;
     margin-left: 0.6vw;
     border-radius: 100% 100% 0% 0%;
@@ -454,6 +454,7 @@ main {
     height: 7vh;
     margin-top: 58vh;
     background-color: silver;
+    position: fixed;
 }
 .road {
     width: 100vw;
@@ -660,13 +661,397 @@ main {
     width: 1vw;
     height: 17vh;
 }
+.tos > div:nth-child(1) {
+    width: 0.4vw;
+    height: 2vh;
+    background-color: red;
+    margin-top: 8vh;
+    border-radius: 70% 70% 0% 0%;
+    margin-left: 0.25vw;
+}
+.tos > div:nth-child(2) {
+    width: 0.4vw;
+    height: 2vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0.25vw;
+}
+.tos > div:nth-child(3) {
+    width: 0.4vw;
+    height: 2vh;
+    background-color: red;
+    margin-left: 0.25vw;
+}
+.tos > div:nth-child(4) {
+    width: 0.25vw;
+    height: 2vh;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(12deg);
+    position: fixed;
+    margin-left: 0.12vw;
+}
+.tos > div:nth-child(5) {
+    width: 0.25vw;
+    height: 2vh;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-12deg);
+    position: fixed;
+    margin-left: 0.5vw;
+}
+.tos > div:nth-child(6) {
+    width: 0.25vw;
+    height: 1.5vh;
+    background-color: red;
+    transform: rotate(12deg);
+    position: fixed;
+    margin-top: 1.2vh;
+}
+.tos > div:nth-child(7) {
+    width: 0.25vw;
+    height: 1.7vh;
+    background-color: red;
+    transform: rotate(-12deg);
+    position: fixed;
+    margin-top: 1.2vh;
+    margin-left: 0.62vw;
+}
 .tob {
     width: 4vw;
     height: 17vh;
 }
+.tob > div:nth-child(1) {
+    width: 0.1vw;
+    height: 0.9vh;
+    background-color: red;
+    margin-left: 1.95vw;
+}
+.tob > div:nth-child(2) {
+    width: 0.1vw;
+    height: 1.1vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.95vw;
+}
+.tob > div:nth-child(3) {
+    width: 0.1vw;
+    height: 1.2vh;
+    background-color: red;
+    margin-left: 1.95vw;
+}
+.tob > div:nth-child(4) {
+    width: 0.2vw;
+    height: 1.4vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.9vw;
+}
+.tob > div:nth-child(5) {
+    width: 0.2vw;
+    height: 1.4vh;
+    background-color: red;
+    margin-left: 1.9vw;
+}
+.tob > div:nth-child(6) {
+    width: 0.5vw;
+    height: 0.6vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.tob > div:nth-child(7) {
+    width: 1vw;
+    height: 0.5vh;
+    background-color: rgb(141, 141, 141);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(8) {
+    width: 1vw;
+    height: 0.5vh;
+    background-color: rgb(96, 170, 199);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(9) {
+    width: 1.5vw;
+    height: 0.5vh;
+    background-color: rgb(141, 141, 141);
+    margin-left: 1.25vw;
+}
+.tob > div:nth-child(10) {
+    width: 1.5vw;
+    height: 0.5vh;
+    background-color: rgb(96, 170, 199);
+    margin-left: 1.25vw;
+}
+.tob > div:nth-child(11) {
+    width: 1.5vw;
+    height: 0.5vh;
+    background-color: rgb(141, 141, 141);
+    margin-left: 1.25vw;
+}
+.tob > div:nth-child(12) {
+    width: 0.5vw;
+    height: 4.5vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.tob > div:nth-child(13) {
+    width: 1vw;
+    height: 0.25vh;
+    background-color: rgb(172, 172, 172);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(14) {
+    width: 0.5vw;
+    height: 0.6vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.tob > div:nth-child(15) {
+    width: 1vw;
+    height: 0.25vh;
+    background-color: rgb(172, 172, 172);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(16) {
+    width: 0.5vw;
+    height: 2.3vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
 .nt > section {
-    width: 5vw;
-    height: 3vh;
+    width: 4.3vw;
+    height: 1.5vh;
+    padding-top: 0.2vh;
     background-color: rgb(196, 175, 83);
     border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.win {
+    width: 4vw;
+    height: 0.2vh;
+    background-color: rgb(94, 143, 163);
+}
+.shad2 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-top: 77.5vh;
+    margin-left: 9.1vw;
+    display: inline-block;
+    position: fixed;
+}
+.shad3 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 23.3vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad4 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 37.6vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad5 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 51.9vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad6 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 66.2vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad7 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 80.5vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad8 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 94.8vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.bars3 {
+    position: fixed;
+    background-color: #63574a;
+    width: 100vw;
+    height: 2vh;
+    margin-top: 50.6vh;
+}
+.section6 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.leaf1 {
+    position: fixed;
+    width: 20vw;
+    height: 16vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf2 {
+    position: fixed;
+    width: 17vw;
+    height: 22vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf3 {
+    position: fixed;
+    width: 12vw;
+    height: 26vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf4 {
+    position: fixed;
+    width: 13vw;
+    height: 10vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf5 {
+    position: fixed;
+    width: 8vw;
+    height: 16vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf6 {
+    position: fixed;
+    width: 20vw;
+    height: 16vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 80vw;
+}
+.leaf7 {
+    position: fixed;
+    width: 17vw;
+    height: 22vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 83vw;
+}
+.leaf8 {
+    position: fixed;
+    width: 12vw;
+    height: 26vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 88vw;
+}
+.leaf9 {
+    position: fixed;
+    width: 13vw;
+    height: 10vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 87vw;
+}
+.leaf10 {
+    position: fixed;
+    width: 8vw;
+    height: 16vh;
+    background: rgb(0, 108, 0);
+    margin-left: 92vw;
+    border-radius: 0% 0% 0% 90%;
+}
+.wood1 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 25vh;
+    transform: rotate(6deg);
+    margin-left: -0.7vw;
+}
+.wood2 {
+    position: fixed;
+    width: 1.8vw;
+    height: 40vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 38vh;
+}
+.wood3 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 75vh;
+    transform: rotate(-7deg);
+    margin-left: -0.7vw;
+}
+.wood4 {
+    position: fixed;
+    width: 5vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 85vh;
+    transform: rotate(-20deg);
+    margin-left: -1.0vw;
+}
+.wood5 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 25vh;
+    transform: rotate(-6deg);
+    margin-left: 97.7vw;
+}
+.wood6 {
+    position: fixed;
+    width: 2vw;
+    height: 40vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 38vh;
+    margin-left: 98.3vw;
+}
+.wood7 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 75vh;
+    transform: rotate(7deg);
+    margin-left: 97.6vw;
+}
+.wood8 {
+    position: fixed;
+    width: 5vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 85vh;
+    transform: rotate(20deg);
+    margin-left: 95.8vw;
 }
