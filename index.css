@@ -480,6 +480,15 @@ main {
     height: 15vh;
     margin-top: 20vh;
     margin-left: 3vw;
+    animation: cloud1 8s linear alternate forwards;
+}
+@keyframes cloud1 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(5vw, 2vh);
+    }
 }
 .cloud1 > article {
     position: fixed;
@@ -513,6 +522,15 @@ main {
     height: 15vh;
     margin-top: 10vh;
     margin-left: 30vw;
+    animation: cloud2 8s linear alternate forwards;
+}
+@keyframes cloud2 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(5vw, -1vh);
+    }
 }
 .cloud2 > article {
     position: fixed;
@@ -546,6 +564,15 @@ main {
     height: 15vh;
     margin-top: 15vh;
     margin-left: 75vw;
+    animation: cloud3 8s linear alternate forwards;
+}
+@keyframes cloud3 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(-5vw, -1vh);
+    }
 }
 .cloud3 > article {
     position: fixed;
