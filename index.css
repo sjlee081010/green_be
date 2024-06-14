@@ -1539,3 +1539,84 @@ main {
     margin-top: 78vh;
     border-radius: 0% 0% 30% 30%;
 }
+.cir1 {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background-color: white;
+    margin-left: 48vw;
+    margin-top: 35vh;
+    border-radius: 100%;
+    animation: cir1 0.75s;
+    animation-delay: 8s;
+    transform: scale(0);
+}   
+@keyframes cir1 {
+    0% { transform: scale(0);}
+    100% { transform: scale(1);}
+}
+.cir2 {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(0, 0, 0);
+    margin-left: 48vw;
+    margin-top: 35vh;
+    border-radius: 100%;
+    animation: cir1 0.75s ;
+    animation-delay: 8.15s;
+    transform: scale(0);
+}   
+@keyframes cir2 {
+    0% { transform: scale(0);}
+    100% { transform: scale(1);}
+}
+.cir3 {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 48vw;
+    margin-top: 35vh;
+    border-radius: 100%;
+    animation: cir1 0.75s ;
+    animation-delay: 8.3s;
+    transform: scale(0);
+}   
+@keyframes cir3 {
+    0% { transform: scale(0);}
+    100% { transform: scale(1);}
+}
+.section6 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+a {
+    display: block;
+    width: 15vw;
+    height: 15vh;
+    margin-left: 43vw;
+    background-color: orange;
+    border-radius: 40%;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 15vh;
+    text-align: center;
+    transition: 0.3s;
+    animation: a 1.5s forwards;
+    animation-delay: 8.2s;
+    margin-top: -15vh;
+}
+a:hover {
+    transform: scale(1.03);
+    background-color: rgb(41, 27, 0);
+    color: beige;
+}
+@keyframes a {
+    0% {transform: translate(0vw, 0vh);}
+    60% {transform: translate(0vw, 50vh);}
+    100% {transform: translate(0vw, 30vh);}
+}
