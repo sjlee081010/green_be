@@ -1611,7 +1611,6 @@ a {
     margin-top: -15vh;
 }
 a:hover {
-    transform: scale(1.03);
     background-color: rgb(41, 27, 0);
     color: beige;
 }
